@@ -16,3 +16,8 @@ npm start
 ```
 
 
+# 注意
+
+
+客户端demo
+https://github.com/thales-ybm/chat-client.git
