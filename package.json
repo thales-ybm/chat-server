@@ -1,0 +1,24 @@
+{
+  "name": "chat-server",
+  "version": "0.0.1",
+  "description": "socket.io chat room",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "babel src -d dist",
+    "clear": "rm -rf dist/*",
+    "watch": "npm run build -- --watch",
+    "eslint": "eslint",
+    "test": "eslint --ext .js,.vue src"
+  },
+  "author": "Thales",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.8.0"
+  }
+}
